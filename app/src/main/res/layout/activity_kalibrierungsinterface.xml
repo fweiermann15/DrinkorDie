@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Kalibrierungsinterface">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Name eingeben" />
+
+    <EditText
+        android:id="@+id/eTextName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Gewicht" />
+
+    <EditText
+        android:id="@+id/eTextAge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSpeichern"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Speichern" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/waterbottle" />
+
+
+</android.widget.LinearLayout>

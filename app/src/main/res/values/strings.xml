@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DrinkorDie</string>
+    <string name="title_activity_kalibrierungsinterface">Kalibrierungsinterface</string>
 </resources>
